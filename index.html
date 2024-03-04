@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Calendar.css" />
+  </head>
+  <body>
+    <header>
+      <span class="menu-button">&#9776; Menu</span>
+      <h1>My New First Website</h1>
+      <p>Welcome to My website</p>
+    </header>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <marquee class="Float" behavior="scroll" direction="left" loop="1"
+      >Enter The Year In Search Bar. To Get The Calender</marquee
+    >
+    <div class="head"><p>Calender</p></div>
+
+    <div class="headbutons">
+      <button class="NP" class="PREV" onclick="prevyear()">PREV YEAR</button>
+      <span class="Enteryr">Enter Year</span>
+      <input
+        type="text"
+        onkeydown="checkEnter(event)"
+        class="year1"
+        class="year2"
+        placeholder="Enter Year"
+      />
+
+      <button
+        class="submitbtn"
+        onclick="
+        Calculation()
+        "
+      >
+        SUBMIT
+      </button>
+      <button class="NP" calss="NEXT" onclick="nextyear()">NEXT YEAR</button>
+    </div>
+    <div class="Invalid-input"></div>
+    <div id="Total24">
+      <div class="one">
+        <div class="JAN"></div>
+        <div class="FEB"></div>
+        <div class="MAR"></div>
+      </div>
+
+      <div class="two">
+        <div class="APR"></div>
+        <div class="MAY"></div>
+        <div class="JUN"></div>
+      </div>
+
+      <div class="three">
+        <div class="JUL"></div>
+        <div class="AUG"></div>
+        <div class="SEP"></div>
+      </div>
+
+      <div class="four">
+        <div class="OCT"></div>
+        <div class="NOV"></div>
+        <div class="DEC"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        &copy; 2024 My New Website. All rights reserved. |
+        <a href="#privacy-policy">Privacy Policy</a> |
+        <a href="#terms-of-service">Terms of Service</a>
+      </p>
+      <p>
+        Haliya Main Street, Nalgonda, Hyderbad | Mahesh147@gmail.com | (123)
+        456-7890
+      </p>
+    </div>
+
+    <script src="calendar.js"></script>
+  </body>
+</html>
