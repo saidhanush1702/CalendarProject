@@ -1,0 +1,412 @@
+html{
+    background:linear-gradient(to right ,#fc4,#6dd5ed);
+    color: black;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.JAN{
+    
+    height: 400px;
+    width: 400px;
+    border-radius:10%;
+    margin: 5px;
+    transition: transform 0.3s;
+}
+.FEB{
+    
+    width: 400px;
+    height: 400px;
+    border-radius:10%;
+    margin: 5px;
+    transition: transform 0.3s;
+
+}
+.MAR{
+
+    width: 400px;
+    height: 400px;
+    border-radius:10%;
+    margin: 5px;
+    transition: transform 0.3s;
+    
+}
+.APR{
+    
+    width: 400px;
+    height: 400px;
+    border-radius:10%;
+    margin: 5px;
+    transition: transform 0.3s;
+}
+.MAY{
+    
+    width: 400px;
+    height: 400px;
+    border-radius:10%;
+    margin: 5px;
+    transition: transform 0.3s;
+}
+.JUN{
+    
+    width: 400px;
+    height: 400px;
+    border-radius:10%;
+    margin: 5px;
+    transition: transform 0.3s;
+}
+.JUL{
+    
+    width: 400px;
+    height: 400px;
+    border-radius:10%;
+    margin: 5px;
+    transition: transform 0.3s;
+    margin: 5px;
+    transition: transform 0.3s;
+}
+.AUG{
+    
+    width: 400px;
+    height: 400px;
+    border-radius:10%;
+    margin: 5px;
+    transition: transform 0.3s;
+}
+.SEP{
+    
+    width: 400px;
+    height: 400px;
+    border-radius:10%;
+    margin: 5px;
+    transition: transform 0.3s;
+}
+.OCT{
+    
+    width: 400px;
+    height: 400px;
+    border-radius:10%;
+    margin: 5px;
+    transition: transform 0.3s;
+}
+.NOV{
+    
+    width: 400px;
+    height: 400px;
+    border-radius:10%;
+    margin: 5px;
+    transition: transform 0.3s;
+}
+.DEC{
+    
+    width: 400px;
+    height: 400px;
+    border-radius:10%;
+    margin: 5px;
+    transition: transform 0.3s;
+}
+.DaysColor{
+    color:red;
+}
+.cmon{
+    color: blueviolet;
+    font-weight: bolder;
+
+}
+.head{
+    font-size: 3.5vh;
+    display: flex;
+    justify-content: center;
+    color: rgb(256, 0, 0);
+
+}
+.headbutons{
+    display: flex;
+    align-items:baseline;
+    justify-content:space-evenly
+}
+.submitbtn{
+    background-color:  #fc4;
+    border-color: white;
+    border-width: 1px;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.Enteryr{
+    font-size: 2.3vh;
+    color:rgb(140, 15, 172);
+}
+.year2{
+    height: 2vh;
+    width: 400px;
+}
+table{
+    border : 1px solid rgb(151, 15, 15);
+    border-radius: 4%;
+   padding: 20px;
+   height: 400px;
+   width: 400px;
+    text-align: center;
+   align-items: center;
+
+}
+.DayColor
+{
+    font-weight: bold;
+    color: rgb(256, 0, 0);
+}
+th{
+    font-size: larger;
+}
+.emptyrow
+{
+    height: 11.7%;
+}
+.Sun{
+    color: red;
+}
+.Sat{
+    color: red;
+}
+.NP
+{
+    background-color: orange;
+    border-color: white;
+    border-width: 1px;
+    height: 30px;
+    width: 120px;
+    border-radius: 7%;
+    cursor: pointer;
+    color: white;
+}
+input{
+    height: 27px;
+    width: 250px;
+    border-style:ridge;
+    border-color: red;
+    border-radius: 3.5%;
+    background:linear-gradient(to right ,#fc4,#6dd5ed);
+    text-align: center;
+    font-size: large;
+    opacity: 50%;
+}
+.Invalid-input{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+    color: red;
+}
+#Total24{
+   border: #fc4; 
+ 
+}
+.submitbtn:hover{
+    background-color:  rgb(19, 29, 90);
+    border-radius: 40px;
+}
+.NP:hover {
+    background-color: rgb(71, 46, 182);
+    border-radius: 40px;
+}
+
+.submitbtn:focus{
+    background-color:  rgb(256, 2, 29);
+    border-radius: 40px;
+}
+.NP:hover {
+    background-color: rgb(71, 46, 182);
+    border-radius: 40px;
+}
+
+.Enteryr:hover{
+    font-size: 2.3vh;
+    color:rgb(255, 94, 0);
+}
+input:hover{
+    font-size: 2vh;
+    color:white;
+    width: 15%;
+    border-radius: 20px;
+    transform: inherit;
+    transition-duration: 2s;
+}
+.FEB:hover{
+    transform: scale(1.2);
+    font-size: large;
+    margin: 60px;
+}
+.MAR:hover{
+    transform: scale(1.2);
+    font-size: large;
+    margin: 60px;
+}
+.JAN:hover{
+    transform: scale(1.2);
+    font-size: large;
+    margin: 60px;
+}
+
+.MAY:hover{
+    transform: scale(1.2);
+    font-size: large;
+    margin: 60px;
+}
+.JUN:hover{
+    transform: scale(1.2);
+    font-size: large;
+    margin: 60px;
+}
+.APR:hover{
+    transform: scale(1.2);
+    font-size: large;
+    margin: 60px;
+}
+
+.AUG:hover{
+    transform: scale(1.2);
+    font-size: large;
+    margin: 60px;
+}
+.SEP:hover{
+    transform: scale(1.2);
+    font-size: large;
+    margin: 60px;
+}
+.JUL:hover{
+    transform: scale(1.2);
+    font-size: large;
+    margin: 60px;
+}
+
+.NOV:hover{
+    transform: scale(1.2);
+    font-size: large;
+    margin: 60px;
+}
+.DEC:hover{
+    transform: scale(1.2);
+    font-size: large;
+    margin: 60px;
+}
+.OCT:hover{
+    transform: scale(1.2);
+    font-size: large;
+    margin: 60px;
+}
+    
+    
+    
+    header {
+        background: linear-gradient(to right, rgb(240, 192, 60), #5ba7b8); 
+        color: #fff;
+        padding: 20px;
+        margin-bottom: -20px;
+        text-align: center;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        
+      }
+  
+      .menu-button {
+        display: none;
+        cursor: pointer;
+        font-size: 18px;
+        color: #fff;
+      }
+  
+      h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+  
+      nav {
+        display: flex;
+        justify-content: space-around;
+        background: linear-gradient(to right, rgb(248, 193, 42), #45b3cc); 
+        padding: 10px;
+        text-align: center;
+      }
+  
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 20px;
+        font-size: 22px;
+      }
+  
+      @media only screen and (max-width: 600px) {
+        .menu-button {
+          display: block;
+        }
+  
+        nav {
+          display: none;
+          position: absolute;
+          top: 70px;
+          left: 0;
+          right: 0;
+          background-color: #444;
+          text-align: center;
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+  
+        nav a {
+          display: block;
+          padding: 10px 0;
+        }
+  
+        nav.show {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    nav.show {
+      display: block;
+    }
+.Float{
+    white-space: nowrap;
+    padding-top: 9px;
+    margin-top: 9px;
+    margin-bottom: -25px;
+    font-size: larger;
+    font-stretch: expanded;
+    color: rgb(170, 11, 85);
+}
+
+.footer {
+    margin-top: 150px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to right, rgb(241, 198, 88), #63bace); 
+}
+.footer :hover {
+    text-decoration: underline;
+}
